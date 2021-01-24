@@ -6669,3 +6669,9 @@ div.subtitle.tags {
 .highlight pre {
   margin: 0;
 }
+
+.license {
+  margin-right: 12.5em;
+  width: 25em;
+  float: right;
+}

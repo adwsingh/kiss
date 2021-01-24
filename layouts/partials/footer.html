@@ -1,9 +1,14 @@
-<section class="section">
-  <div class="container has-text-centered">
+<section class="section" xmlns="http://www.w3.org/1999/html">
+  <div class="container">
+    <small>
     <p>{{ .Site.Copyright | safeHTML }}</p>
     {{if .Site.Params.Info.poweredby}}
       <p>Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/ribice/kiss">Kiss</a>.</p>
     {{ end }}
+    <p><br>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br><small>Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. </small>
+    </p>
+    </small>
   </div>
 </section>
 {{ if .Site.GoogleAnalytics }}
